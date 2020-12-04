@@ -1,43 +1,21 @@
 from tensorflow.keras.models import load_model, Model
-import cv2
 import numpy as np
 import tensorflow as tf
+import streamlit as st
+from PIL import Image
+from keras.preprocessing.image import load_img, img_to_array
+from model import predict
+import keras
 
-IMAGE_SIZE = 224
-file_path = r'D:\krishi-unnati\model'
-# img_path = r'D:\krishi-unnati\images\apple_scab.JPG'
-# img_path = r'D:\krishi-unnati\images\blueberry_healthy.JPG'
-img_path = r'D:\krishi-unnati\images\corn_common_rust.JPG'
-# img_path = r'D:\krishi-unnati\images\grape_black_rot.JPG'
-# img_path = r'D:\krishi-unnati\images\potato_early_blight.JPG'
-classes = [ 'Apple: Apple scab', 'Apple: Black rot',
- 'Apple: Cedar apple rust', 'Apple: healthy', 'Background without leaves',
- 'Blueberry: healthy', 'Cherry: Powdery mildew', 'Cherry: healthy',
- 'Corn: Cercospora leaf spot Gray leaf spot', 'Corn: Common rust',
- 'Corn: Northern Leaf Blight', 'Corn: healthy', 'Grape: Black rot',
- 'Grape: Esca (Black Measles)', 'Grape: Leaf blight (Isariopsis Leaf Spot)',
- 'Grape: healthy', 'Orange: Haunglongbing (Citrus greening)',
- 'Peach: Bacterial spot', 'Peach: healthy', 'Pepper, bell: Bacterial spot',
- 'Pepper, bell: healthy', 'Potato: Early blight', 'Potato: Late blight',
- 'Potato: healthy', 'Raspberry: healthy', 'Soybean: healthy',
- 'Squash: Powdery mildew', 'Strawberry: Leaf scorch', 'Strawberry: healthy',
- 'Tomato: Bacterial spot', 'Tomato: Early blight', 'Tomato: Late blight',
- 'Tomato: Leaf Mold', 'Tomato: Septoria leaf spot',
- 'Tomato: Spider mites Two-spotted spider mite', 'Tomato: Target Spot',
- 'Tomato: Tomato Yellow Leaf Curl Virus', 'Tomato: Tomato mosaic virus',
- 'Tomato: healthy']
-
-model = load_model(file_path)
-
-img = cv2.imread(img_path)
-img = cv2.resize(img, (IMAGE_SIZE, IMAGE_SIZE))
-img = np.reshape(img, [1, IMAGE_SIZE, IMAGE_SIZE, 3])
-img = img/255.
-
-class_probabilities = model.predict(x=img)
-class_probabilities = np.squeeze(class_probabilities)
-prediction_index = int(np.argmax(class_probabilities))
-prediction_class = classes[prediction_index]
-prediction_probability = class_probabilities[prediction_index] * 100
-print(f'Prediction class: {prediction_class}')
-print(f'Prediction probability: {prediction_probability}%')
+# App development
+st.title('Krishi Unnati')
+st.subheader('A plant and crop disease detection app')
+img = st.file_uploader(label='Upload image (PNG, JPG or JPEG)', type=['png', 'jpg', 'jpeg'])
+if img is not None:
+    img = Image.open(img)
+    st.image(image=img, caption='Uploaded image')
+    predict_button = st.button(label='Predict')
+    if predict_button:
+        prediction_class, prediction_probability = predict(img)
+        st.text(f'Prediction: {prediction_class}')
+        st.text(f'Prediction probability: {prediction_probability}%')
