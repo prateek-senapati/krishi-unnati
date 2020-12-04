@@ -5,7 +5,11 @@ import tensorflow as tf
 
 IMAGE_SIZE = 224
 file_path = r'D:\krishi-unnati\model'
-img_path = r'D:\krishi-unnati\images\apple_scab.JPG'
+# img_path = r'D:\krishi-unnati\images\apple_scab.JPG'
+# img_path = r'D:\krishi-unnati\images\blueberry_healthy.JPG'
+# img_path = r'D:\krishi-unnati\images\corn_common_rust.JPG'
+# img_path = r'D:\krishi-unnati\images\grape_black_rot.JPG'
+img_path = r'D:\krishi-unnati\images\potato_early_blight.JPG'
 classes = [ 'Apple___Apple_scab', 'Apple___Black_rot',
  'Apple___Cedar_apple_rust', 'Apple___healthy', 'Background_without_leaves',
  'Blueberry___healthy', 'Cherry___Powdery_mildew', 'Cherry___healthy',
@@ -23,6 +27,8 @@ classes = [ 'Apple___Apple_scab', 'Apple___Black_rot',
  'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'Tomato___Tomato_mosaic_virus',
  'Tomato___healthy']
 
+model = load_model(file_path)
+
 img = cv2.imread(img_path)
 img = cv2.resize(img, (IMAGE_SIZE, IMAGE_SIZE))
 img = np.reshape(img, [1, IMAGE_SIZE, IMAGE_SIZE, 3])
@@ -35,3 +41,6 @@ prediction_class = classes[prediction_index]
 prediction_confidence = class_confidences[prediction_index] * 100
 print(f'Prediction class: {prediction_class}')
 print(f'Prediction confidence: {prediction_confidence}%')
+print(prediction_index)
+print(class_confidences)
+print(len(classes))
