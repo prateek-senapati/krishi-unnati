@@ -7,25 +7,25 @@ IMAGE_SIZE = 224
 file_path = r'D:\krishi-unnati\model'
 # img_path = r'D:\krishi-unnati\images\apple_scab.JPG'
 # img_path = r'D:\krishi-unnati\images\blueberry_healthy.JPG'
-# img_path = r'D:\krishi-unnati\images\corn_common_rust.JPG'
+img_path = r'D:\krishi-unnati\images\corn_common_rust.JPG'
 # img_path = r'D:\krishi-unnati\images\grape_black_rot.JPG'
-img_path = r'D:\krishi-unnati\images\potato_early_blight.JPG'
-classes = [ 'Apple___Apple_scab', 'Apple___Black_rot',
- 'Apple___Cedar_apple_rust', 'Apple___healthy', 'Background_without_leaves',
- 'Blueberry___healthy', 'Cherry___Powdery_mildew', 'Cherry___healthy',
- 'Corn___Cercospora_leaf_spot Gray_leaf_spot', 'Corn___Common_rust',
- 'Corn___Northern_Leaf_Blight', 'Corn___healthy', 'Grape___Black_rot',
- 'Grape___Esca_(Black_Measles)', 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)',
- 'Grape___healthy', 'Orange___Haunglongbing_(Citrus_greening)',
- 'Peach___Bacterial_spot', 'Peach___healthy', 'Pepper,_bell___Bacterial_spot',
- 'Pepper,_bell___healthy', 'Potato___Early_blight', 'Potato___Late_blight',
- 'Potato___healthy', 'Raspberry___healthy', 'Soybean___healthy',
- 'Squash___Powdery_mildew', 'Strawberry___Leaf_scorch', 'Strawberry___healthy',
- 'Tomato___Bacterial_spot', 'Tomato___Early_blight', 'Tomato___Late_blight',
- 'Tomato___Leaf_Mold', 'Tomato___Septoria_leaf_spot',
- 'Tomato___Spider_mites Two-spotted_spider_mite', 'Tomato___Target_Spot',
- 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'Tomato___Tomato_mosaic_virus',
- 'Tomato___healthy']
+# img_path = r'D:\krishi-unnati\images\potato_early_blight.JPG'
+classes = [ 'Apple: Apple scab', 'Apple: Black rot',
+ 'Apple: Cedar apple rust', 'Apple: healthy', 'Background without leaves',
+ 'Blueberry: healthy', 'Cherry: Powdery mildew', 'Cherry: healthy',
+ 'Corn: Cercospora leaf spot Gray leaf spot', 'Corn: Common rust',
+ 'Corn: Northern Leaf Blight', 'Corn: healthy', 'Grape: Black rot',
+ 'Grape: Esca (Black Measles)', 'Grape: Leaf blight (Isariopsis Leaf Spot)',
+ 'Grape: healthy', 'Orange: Haunglongbing (Citrus greening)',
+ 'Peach: Bacterial spot', 'Peach: healthy', 'Pepper, bell: Bacterial spot',
+ 'Pepper, bell: healthy', 'Potato: Early blight', 'Potato: Late blight',
+ 'Potato: healthy', 'Raspberry: healthy', 'Soybean: healthy',
+ 'Squash: Powdery mildew', 'Strawberry: Leaf scorch', 'Strawberry: healthy',
+ 'Tomato: Bacterial spot', 'Tomato: Early blight', 'Tomato: Late blight',
+ 'Tomato: Leaf Mold', 'Tomato: Septoria leaf spot',
+ 'Tomato: Spider mites Two-spotted spider mite', 'Tomato: Target Spot',
+ 'Tomato: Tomato Yellow Leaf Curl Virus', 'Tomato: Tomato mosaic virus',
+ 'Tomato: healthy']
 
 model = load_model(file_path)
 
@@ -34,13 +34,10 @@ img = cv2.resize(img, (IMAGE_SIZE, IMAGE_SIZE))
 img = np.reshape(img, [1, IMAGE_SIZE, IMAGE_SIZE, 3])
 img = img/255.
 
-class_confidences = model.predict(x=img)
-class_confidences = np.squeeze(class_confidences)
-prediction_index = int(np.argmax(class_confidences))
+class_probabilities = model.predict(x=img)
+class_probabilities = np.squeeze(class_probabilities)
+prediction_index = int(np.argmax(class_probabilities))
 prediction_class = classes[prediction_index]
-prediction_confidence = class_confidences[prediction_index] * 100
+prediction_probability = class_probabilities[prediction_index] * 100
 print(f'Prediction class: {prediction_class}')
-print(f'Prediction confidence: {prediction_confidence}%')
-print(prediction_index)
-print(class_confidences)
-print(len(classes))
+print(f'Prediction probability: {prediction_probability}%')
