@@ -5,6 +5,8 @@ For a detailed report, please have a look at our [design project report](https:/
 
 You can find the Jupyter Notebook [here](https://github.com/prateek-senapati/krishi-unnati/blob/main/Krishi_Unnati.ipynb).
 
+The mobile application for Krishi Unnati is in development process. Until the mobile application is ready, you can check out the Krishi Unnati [Streamlit](https://www.streamlit.io/) web app that has been built by [Prateek Senapati](https://github.com/prateek-senapati) [here](https://github.com/prateek-senapati/krishi-unnati-streamlit).
+
 #### Note:
 
-* The code for the mobile application development is yet to be uploaded in this repository. It will be done soon.
+* The code for the mobile application development is yet to be uploaded in this repository. It will be done soon by the mobile application development team.
