@@ -33,4 +33,5 @@ def predict(img):
     prediction_index = int(np.argmax(class_probabilities))
     prediction_class = classes[prediction_index]
     prediction_probability = class_probabilities[prediction_index] * 100
+    prediction_probability = round(prediction_probability, 2)
     return prediction_class, prediction_probability
