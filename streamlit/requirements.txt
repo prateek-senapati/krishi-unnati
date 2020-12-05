@@ -1,0 +1,6 @@
+streamlit==0.72.0
+tensforflow==2.3.1
+numpy==1.18.5
+PIL==8.0.1
+Keras==2.4.3
+Keras-Preprocessing==1.1.2
