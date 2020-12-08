@@ -15,12 +15,4 @@ Krishi Unnati is a mobile application for plant and crop disease detection using
 
 Here are some screenshots from the Krishi Unnati mobile application which is still under development:
 
-<img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image1.jpeg" width="250" height="500">
-
-<img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image2.jpeg" width="250" height="500">
-
-<img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image3.jpeg" width="250" height="500">
-
-<img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image4.jpeg" width="250" height="500">
-
-<img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image5.jpeg" width="250" height="500">
+<img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image1.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image2.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image3.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image4.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image5.jpeg" width="250" height="500">
