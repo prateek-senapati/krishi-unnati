@@ -15,12 +15,12 @@ Krishi Unnati is a mobile application for plant and crop disease detection using
 
 Here are some screenshots from the Krishi Unnati mobile application which is still under development:
 
-* ![Screenshot 1](screenshots\image1.jpeg)
+* <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image1.jpeg" width="250" height="500">
 
-* ![Screenshot 2](screenshots\image2.jpeg)
+* <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image2.jpeg" width="250" height="500">
 
-* ![Screenshot 3](screenshots\image3.jpeg)
+* <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image3.jpeg" width="250" height="500">
 
-* ![Screenshot 4](screenshots\image4.jpeg)
+* <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image4.jpeg" width="250" height="500">
 
-* ![Screenshot 5](screenshots\image5.jpeg)
+* <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image5.jpeg" width="250" height="500">
