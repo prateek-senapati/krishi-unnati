@@ -5,7 +5,7 @@ Krishi Unnati is a mobile application for plant and crop disease detection using
 
 * You can find the Jupyter Notebook **[here](https://github.com/prateek-senapati/krishi-unnati/blob/main/Krishi_Unnati.ipynb)**.
 
-* The mobile application for Krishi Unnati is in development process. Until the mobile application is ready, you can check out the Krishi Unnati [Streamlit](https://www.streamlit.io/) web app that has been built by [Prateek Senapati](https://github.com/prateek-senapati) **[here](https://github.com/prateek-senapati/krishi-unnati-streamlit)**.
+* The mobile application for Krishi Unnati is in development process. Until the mobile application is ready, you can check out the Krishi Unnati [Streamlit](https://www.streamlit.io/) web app that has been built by [Prateek Senapati](https://github.com/prateek-senapati) **[here](https://github.com/prateek-senapati/krishi-unnati-streamlit)**. This has been built as a quick prototype for our project.
 
 #### Note:
 
