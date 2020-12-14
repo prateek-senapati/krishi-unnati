@@ -121,12 +121,7 @@ class Profile extends React.Component {
         }
     }
 
-    // uploadImage = async (uri, imageName) => {
-    //     const response = await fetch(uri);
-    //     const blob = await response.blob();
-    //     var ref = Firebase.storage().ref().child("images/" + imageName);
-    //     return ref.put(blob);
-    // }
+   
 
     dataURItoBlob = (dataURI) => {
         var binary = atob(dataURI.split(',')[1]);
