@@ -1,119 +1,119 @@
 {
-      "Apple___Apple_scab":{  
-          "Cure":"Foliar applications of PHOSPHO-jet are made at pre bloom (bud swell or silver tip stage) and every 7 days until end of bloom period. Foliar applications of Propizol in crabapple trees may likewise be applied every 21 days from bud swell or silver tip stage. Alternatively, apply Propizol by trunk injection. Make applications when the trees are in full leaf and actively growing for control of the next season’s leaf disease development"
-      },
-      "Apple___Black_rot":{
-          "Cure":"Remove the cankers by pruning at least 15 inches below the end and burn"
-      },
-      "Apple___Cedar_apple_rust":{ 
-        "Cure":"The fungicide myclobutanil (Immunox) is available to homeowners and is effective in controlling apple scab and cedar apple rust"
-      },
-      "Apple___healthy":{
-        "Cure":""
-      },
-      "Background_without_leaves":{   
-        "Cure":""
-      },
-      "Blueberry___healthy":{  
-        "Cure":""
-      },
-      "Cherry___Powdery_mildew":{ 
-        "Cure":"Spray on plants every one to two weeks. Potassium bicarbonate– Similar to baking soda"
-      },
-      "Cherry___healthy":{   
-        "Cure":""
-      },
-      "Corn___Cercospora_leaf_spot Gray_leaf_spot": {  
-        "Cure":"foliar fungicides can be used to manage gray leaf spot outbreaks"
-      },
-      "Corn___Common_rust":{ 
-        "Cure":"If the corn begins to show symptoms of infection, immediately spray with a fungicide"
-      },
-      "Corn___Northern_Leaf_Blight":{       
-        "Cure":"Always treat pruning and cutting tools with a 1:10 bleach solution after each use. Rake and remove all debris from around your plants before the leaves bud each spring"
-      },
-      "Corn___healthy":{   
-        "Cure":""
-      },
-      "Grape___Black_rot":{   
-        "Cure":"Mancozeb, and Ziram are all highly effective against black rot. Because these fungicides are strictly protectants, they must be applied before the fungus infects or enters the plan"
-      },
-      "Grape___Esca_(Black_Measles)":{   
-        "Cure":"Lime sulfur sprays can manage the trio of pathogens that cause black measles"
-      },
-      "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)":{  
-        "Cure":"Spraying of the grapevines at 3-4 leaf stage with fungicides like Bordeaux mixture @ 0.8% or Copper Oxychloride @ 0.25% or Carbendazim @ 0.1% are effective against this disease."
-      },
-      "Grape___healthy":{  
-        "Cure":""
-      },
-      "Orange___Haunglongbing_(Citrus_greening)":{   
-        "Cure":"antibacterial management, sanitation, removal of infected plants, frequent scouting, and most importantly, crisis declaration"
-      },
-      "Peach___Bacterial_spot":{  
-        "Cure":"A plant with bacterial spot cannot be cured. Remove symptomatic plants from the field or greenhouse to prevent the spread of bacteria to healthy plants"
-      },
-      "Peach___healthy":{  
-        "Cure":""
-      },
-      "Pepper,_bell___Bacterial_spot":{ 
-        "Cure":"Bacterial viruses (bacteriophages) that specifically kill the bacteria are available.  Submerge seeds for one minute in 1.3% sodium hypochlorite or in hot water (50°C) for 25 minutes"
-      },
-      "Pepper,_bell___healthy":{
-        "Cure":""
-      },
-      "Potato___Early_blight":{
-        "Cure":"It is a Soil Borne disease. Therefore, rotation and field sanitation of crops are effective in preventing disease"
-      },
-      "Potato___Late_blight":{
-        "Cure":""
-      },
-      "Potato___healthy":{
-        "Cure":""
-      },
-      "Raspberry___healthy":{
-        "Cure":""
-      },
-      "Soybean___healthy":{
-        "Cure":""
-      },
-      "Squash___Powdery_mildew":{
-        "Cure":""
-      },
-      "Strawberry___Leaf_scorch":{
-        "Cure":""
-      },
-      "Strawberry___healthy":{
-        "Cure":""
-      },
-      "Tomato___Bacterial_spot":{  
-        "Cure":""
-      },
-      "Tomato___Early_blight":{   
-        "Cure":""
-      },
-      "Tomato___Late_blight":{   
-        "Cure":""
-      },
-      "Tomato___Leaf_Mold":{
-        "Cure":""
-      },
-      "Tomato___Septoria_leaf_spot":{
-        "Cure":""
-      },
-      "Tomato___Spider_mites Two-spotted_spider_mite":{
-        "Cure":""
-      },
-      "Tomato___Target_Spot":{
-        "Cure":""
-      },
-      "Tomato___Tomato_Yellow_Leaf_Curl_Virus":{
-        "Cure":""
-      },
-      "Tomato___Tomato_mosaic_virus":{
-        "Cure":""
-      },
-      "Tomato___healthy" : {  
-        "Cure":""
-      }
-    }
+  "Apple___Apple_scab":{  
+      "Cure":"Foliar applications of PHOSPHO-jet are made at pre bloom (bud swell or silver tip stage) and every 7 days until end of bloom period. Foliar applications of Propizol in crabapple trees may likewise be applied every 21 days from bud swell or silver tip stage. Alternatively, apply Propizol by trunk injection. Make applications when the trees are in full leaf and actively growing for control of the next season’s leaf disease development"
+  },
+  "Apple___Black_rot":{
+      "Cure":"Remove the cankers by pruning at least 15 inches below the end and burn"
+  },
+  "Apple___Cedar_apple_rust":{ 
+    "Cure":"The fungicide myclobutanil (Immunox) is available to homeowners and is effective in controlling apple scab and cedar apple rust"
+  },
+  "Apple___healthy":{
+    "Cure":""
+  },
+  "Background_without_leaves":{   
+    "Cure":""
+  },
+  "Blueberry___healthy":{  
+    "Cure":""
+  },
+  "Cherry___Powdery_mildew":{ 
+    "Cure":"Spray on plants every one to two weeks. Potassium bicarbonate– Similar to baking soda"
+  },
+  "Cherry___healthy":{   
+    "Cure":""
+  },
+  "Corn___Cercospora_leaf_spot Gray_leaf_spot": {  
+    "Cure":"foliar fungicides can be used to manage gray leaf spot outbreaks"
+  },
+  "Corn___Common_rust":{ 
+    "Cure":"If the corn begins to show symptoms of infection, immediately spray with a fungicide"
+  },
+  "Corn___Northern_Leaf_Blight":{       
+    "Cure":"Always treat pruning and cutting tools with a 1:10 bleach solution after each use. Rake and remove all debris from around your plants before the leaves bud each spring"
+  },
+  "Corn___healthy":{   
+    "Cure":""
+  },
+  "Grape___Black_rot":{   
+    "Cure":"Mancozeb, and Ziram are all highly effective against black rot. Because these fungicides are strictly protectants, they must be applied before the fungus infects or enters the plan"
+  },
+  "Grape___Esca_(Black_Measles)":{   
+    "Cure":"Lime sulfur sprays can manage the trio of pathogens that cause black measles"
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)":{  
+    "Cure":"Spraying of the grapevines at 3-4 leaf stage with fungicides like Bordeaux mixture @ 0.8% or Copper Oxychloride @ 0.25% or Carbendazim @ 0.1% are effective against this disease."
+  },
+  "Grape___healthy":{  
+    "Cure":""
+  },
+  "Orange___Haunglongbing_(Citrus_greening)":{   
+    "Cure":"antibacterial management, sanitation, removal of infected plants, frequent scouting, and most importantly, crisis declaration"
+  },
+  "Peach___Bacterial_spot":{  
+    "Cure":"A plant with bacterial spot cannot be cured. Remove symptomatic plants from the field or greenhouse to prevent the spread of bacteria to healthy plants"
+  },
+  "Peach___healthy":{  
+    "Cure":""
+  },
+  "Pepper,_bell___Bacterial_spot":{ 
+    "Cure":"Bacterial viruses (bacteriophages) that specifically kill the bacteria are available.  Submerge seeds for one minute in 1.3% sodium hypochlorite or in hot water (50°C) for 25 minutes"
+  },
+  "Pepper,_bell___healthy":{
+    "Cure":""
+  },
+  "Potato___Early_blight":{
+    "Cure":"It is a Soil Borne disease. Therefore, rotation and field sanitation of crops are effective in preventing disease"
+  },
+  "Potato___Late_blight":{
+    "Cure":"viride, and Pseudomonas fluorescens are effective against the disease. * Protectant fungicides (e.g. maneb, mancozeb, chlorothalonil, and triphenyl tin hydroxide) are also effective"
+  },
+  "Potato___healthy":{
+    "Cure":""
+  },
+  "Raspberry___healthy":{
+    "Cure":""
+  },
+  "Soybean___healthy":{
+    "Cure":""
+  },
+  "Squash___Powdery_mildew":{
+    "Cure":"mix one tablespoon of baking soda with a teaspoon of dormant oil and one teaspoon of insecticidal or liquid soap (not detergent) to a gallon of water. Spray on plants every one to two weeks"
+  },
+  "Strawberry___Leaf_scorch":{
+    "Cure":"If de-icing salt or fertilizer burn are suspected, leaching the soil with a slow trickle of water for 24 hours may help in recovery"
+  },
+  "Strawberry___healthy":{
+    "Cure":""
+  },
+  "Tomato___Bacterial_spot":{  
+    "Cure":"A plant with bacterial spot cannot be cured. Remove symptomatic plants from the field or greenhouse to prevent the spread of bacteria to healthy plant"
+  },
+  "Tomato___Early_blight":{   
+    "Cure":"Spraying of Bordeaux mixture should be done from time to time. Soil treatment of nursery beds should be sprayed with aldicarb or tamic"
+  },
+  "Tomato___Late_blight":{   
+    "Cure":"Spraying of Bordeaux mixture leads to disease control. Spraying of other chemical substances such as mancozeb, metalloxyl, captafol, etc. is also beneficial."
+  },
+  "Tomato___Leaf_Mold":{
+    "Cure":"Applications should be made prior to infection when environmental conditions are optimal for the development of the disease. Recommended compounds in field use are chlorothalonil, maneb, mancozeb and copper formulations. For greenhouses, difenoconazole, mandipropamid, cymoxanil, famoxadone and cyprodinil are recommended."
+  },
+  "Tomato___Septoria_leaf_spot":{
+    "Cure":"removing damaged leaves from the plant. n organic fungicide which works against septoria leaf spot is copper fungicide"
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite":{
+    "Cure":"The best way to begin treating for two-spotted mites is to apply a pesticide specific to mitescalled a miticide"
+  },
+  "Tomato___Target_Spot":{
+    "Cure":"Remove old plant debris at the end of the growing season; otherwise, the spores will travel from debris to newly planted tomatoes in the following growing season, thus beginning the disease anew"
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus":{
+    "Cure":"symptomatic plants should be carefully covered by a clear or black plastic bag and tied at the stem at soil line. Cut off the plant below the bag and allow bag with plant and whiteflies to desiccate to death on the soil surface for 1-2 days prior to placing the plant in the tras"
+  },
+  "Tomato___Tomato_mosaic_virus":{
+    "Cure":"Fungicides will NOT treat this viral disease, Plant resistant varieties when available or purchase transplants from a reputable source."
+  },
+  "Tomato___healthy" : {  
+    "Cure":""
+  }
+}
