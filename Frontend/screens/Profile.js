@@ -5,19 +5,26 @@ import * as ImagePicker from 'expo-image-picker';
 import bird_req from '../config/request'
 import axios from 'axios';
 import * as FileSystem from 'expo-file-system';
-
+import data from '../Json/Cure';
 
 class Profile extends React.Component {
 
-
-    state = {
+state = {
         image_src: '',
         title: 'Hello, World!',
         content: '',
         image: null,
         disease: '',
         pro:'',
-    }
+        cure:'',
+}
+
+    cure = async () => {
+      {data.map((details,index)=>{
+         {details.Name };
+      }
+   )}
+}
 
     handleSignout = () => {
         Firebase.auth().signOut()
@@ -59,28 +66,21 @@ class Profile extends React.Component {
     onChooseImagePress = async () => {
 
         let result = await ImagePicker.launchImageLibraryAsync();
-        // const res = await bird_req.post('/');
-        // let http = new XMLHttpRequest();
-        // http.open('POST', "https://192.168.1.103", true);
-        // http.send();
-        // console.log(res)
+        
         this.setState({disease:'loading...'})
         this.setState({pro:''})
         if (!result.cancelled) {
             let localUri = result.uri;
             let filename = localUri.split('/').pop();
             const base64 = await FileSystem.readAsStringAsync(localUri, { encoding: 'base64' });
-            // var blob = this.dataURItoBlob(base64);
+            
             
             let match = /\.(\w+)$/.exec(filename);
             let type = match ? `image/${match[1]}` : `image`;
             let form_data = new FormData();
-            // const response = await fetch(localUri);
-            // const blob = await response.blob();
-            // console.log(typeof(blob));
-
+            
             this.setState({ image_src: result.uri })
-            // form_data.append('image', blob);
+            
             form_data.append('title', this.state.title);
             form_data.append('content', base64);
             
@@ -93,35 +93,16 @@ class Profile extends React.Component {
                 .then(res => {
                     this.setState({disease:res.data.disease_name})
                     this.setState({pro:res.data.probability})
-                    console.log(res.data);
+                    this.setState({cure:res.data.disease_details.Cure})
+                    console.log(this.state.cure);
                 })
                 .catch(err => console.log(err))
 
             
-
-            // // Upload the image using the fetch and FormData APIs
-            // let formData = new FormData();
-            // // Assume "photo" is the name of the form field the server expects
-            // formData.append('photo', { uri: localUri, name: filename, type });
-
-            // const response = await fetch('http://192.168.1.103', {
-            //     method: 'POST',
-            //     body: formData,
-            //     headers: {
-            //         'content-type': 'multipart/form-data',
-            //     },
-            // });
-            // this.uploadImage(result.uri, `test-image`)
-            //     .then(() => {
-            //         Alert.alert("Success");
-            //     })
-            //     .catch((error) => {
-            //         Alert.alert('error');
-            //     });
         }
     }
 
-   
+    
 
     dataURItoBlob = (dataURI) => {
         var binary = atob(dataURI.split(',')[1]);
@@ -132,27 +113,38 @@ class Profile extends React.Component {
         return new Blob([new Uint8Array(array)], {type: 'image/jpeg'});
     }
     
+    information = () => {
+        this.props.navigation.navigate('Cure', {
+            cure: this.state.cure,
+        })
+        this.setState({ pro: '' })
+    }
 
     render() {
         return (
             <View style={styles.container}>
-                <Image source={{ uri: this.state.image_src }} style={{ width: 400, height: 400 }} />
+                {this.state.image_src == '' ? <Image source={require('../assets/test1.jpeg')} style={{ width: 400, height: 400 }} /> :
+                    <Image source={{ uri: this.state.image_src }} style={{ width: 400, height: 400 }} />}
+             
                 <View style={styles.button}>
-                    <View style={styles.buttontext}>
+                     <View style={styles.buttontext}>
                         <Button style={styles.btndes} title="Capture" onPress={this.onClickImagePress} />
-                    </View>
-                    <View style={styles.buttontext}>
+                     </View>
+                  
+                     <View style={styles.buttontext}>
                         <Button style={{borderRadius:50}} title="Choose from Gallery" onPress={this.onChooseImagePress} />
-                    </View>
+                     </View>
+                    
                     <View style={styles.buttontext}>
-                        {/* <TouchableOpacity style={styles.design3} onPress={this.handleSignout}>
-                        <Text>Log Out</Text>
-                        </TouchableOpacity> */}
-                        <Button title='Logout' onPress={this.handleSignout} />
+                          <Button title='Logout' onPress={this.handleSignout} />
                     </View>
                 </View>
+
                      <Text> Disease Name : - {this.state.disease}</Text>
                      <Text>Probability:- {this.state.pro} %</Text>
+
+                      {/* <Button title="CURE" onPress={this.cure} />   */}
+                      {this.state.pro == '' ? null : <Button title="Cure" onPress={this.information} >Cure</Button>}
             
             </View>
 

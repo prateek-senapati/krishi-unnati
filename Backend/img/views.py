@@ -55,6 +55,9 @@ classes=['Apple___Apple_scab',
  'Tomato___healthy']
 
 def prepare(img_path):
+    with open('Cure.json', encoding='utf-8') as fl1:
+        data_dict = json.load(fl1)
+    print("Data Dictionary == ",data_dict)    
     model = keras.models.load_model('./model.h5')
     img = cv2.imread(img_path) 
     img = cv2.resize(img, (IMAGE_SIZE, IMAGE_SIZE))
@@ -64,7 +67,8 @@ def prepare(img_path):
     class_index = int(np.argmax(class_confidence, axis=1)) 
     class_confidence = np.squeeze(class_confidence)
     pro=class_confidence[class_index] * 100
-    return {'probability': pro, 'disease_name': classes[class_index]}
+    print("classsssssssssss",classes[class_index]);
+    return {'probability': pro, 'disease_name': classes[class_index] , 'disease_details': data_dict[class_index]}
 
 
 class PostView(APIView):
