@@ -2,7 +2,8 @@
 Krishi Unnati is a mobile application for plant and crop disease detection using convolutional neural networks. We have used convolutional neural networks (CNNs) to build and train a model which can classify crop and plant diseases from the images of their leaves. Our model has achieved a test accuracy of 96.61% by using transfer learning on a pre-trained VGG16 model.
 
 ### Team Members :
-1.  <a link ="https://github.com/prateek-senapati">Prateek Senapati</a>
+1. [Prateek Senapati] (https://github.com/prateek-senapati)
+<!-- 1.  <a link ="https://github.com/prateek-senapati">Prateek Senapati</a> -->
 2.  <a link ="https://github.com/Sudhanshu2920">Sudanshu Pandey</a>
 3.  <a link ="https://github.com/sumitmishra27">Sumit Kumar Mishra</a>
 4.   <a link ="https://github.com/Pranshu2780">Milind Pandey</a>
