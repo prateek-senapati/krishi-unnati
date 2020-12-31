@@ -27,27 +27,31 @@ Here are some screenshots of the Krishi Unnati mobile application:
 ![Screenshot (70)](https://user-images.githubusercontent.com/47604864/103413618-67028100-4ba0-11eb-8deb-3af0a7fd831e.png)
 
 <br/>
+<br/>
 
 ![Screenshot (71)](https://user-images.githubusercontent.com/47604864/103413627-6c5fcb80-4ba0-11eb-9e73-7e09591aef7c.png)
 ![Screenshot (72)](https://user-images.githubusercontent.com/47604864/103413632-71bd1600-4ba0-11eb-908d-632375b29275.png)
 
+<br/>
 <br/>
 
 ![Screenshot (73)](https://user-images.githubusercontent.com/47604864/103413637-7681ca00-4ba0-11eb-9050-e57301855db6.png)
 ![Screenshot (74)](https://user-images.githubusercontent.com/47604864/103413644-7f729b80-4ba0-11eb-8eca-1597e22b1c6a.png)
 
 <br/>
+<br/>
 
 ![Screenshot (75)](https://user-images.githubusercontent.com/47604864/103413651-8699a980-4ba0-11eb-9d89-04e8fd5d8ee7.png)
 ![Screenshot (76)](https://user-images.githubusercontent.com/47604864/103413658-8b5e5d80-4ba0-11eb-8565-8ee1f395b7ee.png)
 
+<br/>
 <br/>
 
 ![Screenshot (77)](https://user-images.githubusercontent.com/47604864/103413672-95805c00-4ba0-11eb-8a0e-33d751597683.png)
 ![Screenshot (78)](https://user-images.githubusercontent.com/47604864/103413686-9b763d00-4ba0-11eb-8339-8f09445c0b0c.png)
 
 <br/>
-
+<br/>
 
 #### Note:
 
