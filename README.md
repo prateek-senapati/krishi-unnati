@@ -21,7 +21,7 @@ Here are some screenshots of the Krishi Unnati mobile application:
 
 <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image1.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image2.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image3.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image4.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image5.jpeg" width="250" height="500">
 
-![Screenshot (69)](https://user-images.githubusercontent.com/47604864/103413601-54884780-4ba0-11eb-8d91-f921a4385f46.png){:height="70px" width="40px"}
+![Screenshot (69)](https://user-images.githubusercontent.com/47604864/103413601-54884780-4ba0-11eb-8d91-f921a4385f46.pngs=200)
 
 ![Screenshot (70)](https://user-images.githubusercontent.com/47604864/103413618-67028100-4ba0-11eb-8deb-3af0a7fd831e.png){:height="70px" width="40px"}
 
