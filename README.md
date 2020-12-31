@@ -30,7 +30,7 @@ Here are some screenshots of the Krishi Unnati mobile application:
 
 ### 2. Corn__Common_Rust
 
-<img src="https://user-images.githubusercontent.com/47604864/103413627-6c5fcb80-4ba0-11eb-9e73-7e09591aef7c.png" height="550px" width="300px">
+<img align="left" src="https://user-images.githubusercontent.com/47604864/103413627-6c5fcb80-4ba0-11eb-9e73-7e09591aef7c.png" height="550px" width="300px">
 <img src="https://user-images.githubusercontent.com/47604864/103413632-71bd1600-4ba0-11eb-908d-632375b29275.png" height="550px" width="300px">
 
 
@@ -38,7 +38,7 @@ Here are some screenshots of the Krishi Unnati mobile application:
 
 ### 3. Blueberry_healthy
 
-<img src="https://user-images.githubusercontent.com/47604864/103413637-7681ca00-4ba0-11eb-9050-e57301855db6.png" height="550px" width="300px">
+<img align="left" src="https://user-images.githubusercontent.com/47604864/103413637-7681ca00-4ba0-11eb-9050-e57301855db6.png" height="550px" width="300px">
 <img src="https://user-images.githubusercontent.com/47604864/103413644-7f729b80-4ba0-11eb-8eca-1597e22b1c6a.png" height="550px" width="300px">
 
 <br/>
@@ -46,7 +46,7 @@ Here are some screenshots of the Krishi Unnati mobile application:
 ### 4. Apple__Apple_Scab
 
 
-<img src="https://user-images.githubusercontent.com/47604864/103413651-8699a980-4ba0-11eb-9d89-04e8fd5d8ee7.png" height="550px" width="300px">
+<img align="left" src="https://user-images.githubusercontent.com/47604864/103413651-8699a980-4ba0-11eb-9d89-04e8fd5d8ee7.png" height="550px" width="300px">
 <img src="https://user-images.githubusercontent.com/47604864/103413658-8b5e5d80-4ba0-11eb-8565-8ee1f395b7ee.png" height="550px" width="300px">
 
 <br/>
@@ -54,7 +54,7 @@ Here are some screenshots of the Krishi Unnati mobile application:
 ### 5. Grape_Esca_(Black_Measles)
 
 
-<img src="https://user-images.githubusercontent.com/47604864/103413672-95805c00-4ba0-11eb-8a0e-33d751597683.png" height="550px" width="300px">
+<img align="left" src="https://user-images.githubusercontent.com/47604864/103413672-95805c00-4ba0-11eb-8a0e-33d751597683.png" height="550px" width="300px">
 <img src="https://user-images.githubusercontent.com/47604864/103413686-9b763d00-4ba0-11eb-8339-8f09445c0b0c.png" height="550px" width="300px">
 
 <br/>
