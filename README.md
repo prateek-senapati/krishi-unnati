@@ -22,10 +22,11 @@ Here are some screenshots of the Krishi Unnati mobile application:
 <!-- <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image1.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image2.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image3.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image4.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image5.jpeg" width="250" height="500"> -->
 
 ### 1. Potato Late_blight
-<img src="https://user-images.githubusercontent.com/47604864/103413601-54884780-4ba0-11eb-8d91-f921a4385f46.png" height="100px" width="100px">
+<img src="https://user-images.githubusercontent.com/47604864/103413601-54884780-4ba0-11eb-8d91-f921a4385f46.png" height="400px" width="200px">
 ![Screenshot (69)](https://user-images.githubusercontent.com/47604864/103413601-54884780-4ba0-11eb-8d91-f921a4385f46.png | width=48)
 
 ![Screenshot (70)](https://user-images.githubusercontent.com/47604864/103413618-67028100-4ba0-11eb-8deb-3af0a7fd831e.png | width=48)
+
 <br/>
 ### 2. Corn__Common_Rust
 ![Screenshot (71)](https://user-images.githubusercontent.com/47604864/103413627-6c5fcb80-4ba0-11eb-9e73-7e09591aef7c.png | width=48)
