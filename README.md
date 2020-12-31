@@ -12,7 +12,7 @@ Krishi Unnati is a mobile application for plant and crop disease detection using
 1.  <a href ="https://github.com/prateek-senapati">Prateek Senapati</a> 
 2.  <a href ="https://github.com/Sudhanshu2920">Sudanshu Pandey</a>
 3.  <a href ="https://github.com/sumitmishra27">Sumit Kumar Mishra</a>
-4.   <a href ="https://github.com/Pranshu2780">Milind Pandey</a>
+4.  <a href ="https://github.com/Pranshu2780">Milind Pandey</a>
 
 
 ### Mobile Application:
@@ -21,7 +21,6 @@ Here are some screenshots of the Krishi Unnati mobile application:
 
 <!-- <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image1.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image2.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image3.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image4.jpeg" width="250" height="500"> <img src="https://github.com/prateek-senapati/krishi-unnati/blob/main/screenshots/image5.jpeg" width="250" height="500"> -->
 
-### Images of  Our App
 
 ![Screenshot (69)](https://user-images.githubusercontent.com/47604864/103413601-54884780-4ba0-11eb-8d91-f921a4385f46.png)
 ![Screenshot (70)](https://user-images.githubusercontent.com/47604864/103413618-67028100-4ba0-11eb-8deb-3af0a7fd831e.png)
